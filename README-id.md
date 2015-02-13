@@ -1,11 +1,10 @@
 # asknot-ng -- edisi Bantuan Fedora-ID
 
-Program oleh [@ralphbean][threebean]. Terinspirasi [versi
-semula][wcidfm] oleh [Josh Matthews][jdm], [Henri Koivuneva][wham],
+Ditulis oleh [@ralphbean][threebean]. Terinspirasi dari [wcidfm] oleh [Josh Matthews][jdm], [Henri Koivuneva][wham],
 dan [lainnya][asknot-contribs].
 
-Rewrite ini lebih fleksibel dari versi awalnya. Script utama,
-``asknot-ng.py``, berfungsi seperti static-site generator. Inputnya
+Modifikasi ini lebih fleksibel dari versi awalnya. Script utama,
+``asknot-ng.py``, berfungsi seperti *static-site generator*. Inputnya
 terdiri dari tiga hal:
 
 - File pertanyaan, ditulis dalam yaml (lihat
@@ -14,13 +13,11 @@ terdiri dari tiga hal:
   [file pertanyaan Bantuan][fedora-id-bantuan].
 - File template, ditulis dalam mako (template
   [default][default-template] seharusnya bisa dipakai semua orang).
-- Argumen 'theme' menentukan CSS mana yang dipakai. Default-nya cukup
-  menarik, Anda mungkin ingin membuat versi derivatif untuk keperluan
-  Anda.
+- Perintah 'theme' digunakan untuk memilih file css yang akan dipakai.
 
 Untuk melihat hasil program ini, bisa melihat [situs versi Fedora][wcidff].
 
-## Kontribusi
+## Cara untuk Berkontribusi
 
 * [Belajar pakai Git dan GitHub][github-help]
 * [Pedoman forking dan pull request][patches]
@@ -37,6 +34,10 @@ Clone kode sumber dari repo
 ```
 $ git clone https://github.com/fedora-id/asknot-ng.git
 $ cd asknot-ng
+```
+Pasang Python PIP
+```
+su -c "dnf install python-pip"
 ```
 
 Pasang pustaka yang dibutuhkan
