@@ -32,17 +32,17 @@ Anda dapat di-merge balik secara mudah!
 
 ## Pasang Dan Jalankan
 
-Pasang pustaka yang dibutuhkan lebih dulu
-
-```
-$ pip install -r requirements.txt
-```
-
 Clone kode sumber dari repo
 
 ```
 $ git clone https://github.com/fedora-id/asknot-ng.git
 $ cd asknot-ng
+```
+
+Pasang pustaka yang dibutuhkan
+
+```
+$ pip install -r requirements.txt
 ```
 
 Jalankan
